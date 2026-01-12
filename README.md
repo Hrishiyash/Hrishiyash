@@ -1,90 +1,14 @@
 
 <h1 align="center">Hi 👋, I'm Rishikant Tiwary</h1>
 
-<!-- ===================== TYPING + POPPING ANIMATION ===================== -->
+<!-- ===================== TYPING ANIMATION ===================== -->
 <p align="center">
-  <span id="animatedIntro"></span>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&pause=1000&color=4AA3FF&center=true&vCenter=true&width=750&lines=Aspiring+Data+Scientist;Machine+Learning+%26+AI+Enthusiast;FastAPI+%7C+Docker+%7C+Python+Developer;Turning+Data+into+Intelligent+Systems" />
 </p>
-
-<style>
-  /* Container & word style */
-  #animatedIntro {
-    display: inline-block;
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: #4AA3FF;
-    line-height: 2;
-    max-width: 800px;
-    word-wrap: break-word;
-    text-align: center;
-  }
-
-  /* Each word */
-  #animatedIntro span {
-    opacity: 0;
-    display: inline-block;
-    transform: translateY(20px) scale(0.8);
-    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    margin-right: 5px;
-  }
-
-  /* Word visible */
-  #animatedIntro span.show {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-
-  /* Responsive */
-  @media (max-width: 768px) {
-    #animatedIntro {
-      font-size: 1.1rem;
-    }
-  }
-</style>
-
-<script>
-  // Words for typing + popping
-  const introWords = [
-    "Aspiring Data Scientist",
-    "Machine Learning & AI Enthusiast",
-    "FastAPI | Docker | Python Developer",
-    "Turning Data into Intelligent Systems"
-  ];
-
-  const introEl = document.getElementById('animatedIntro');
-
-  let wordIndex = 0;
-  let charIndex = 0;
-
-  function typeWord() {
-    if (wordIndex >= introWords.length) return; // Stop after last word
-
-    const currentWord = introWords[wordIndex];
-    if (charIndex < currentWord.length) {
-      // Create span if first char
-      if (charIndex === 0) {
-        const span = document.createElement('span');
-        introEl.appendChild(span);
-      }
-      const span = introEl.querySelectorAll('span')[wordIndex];
-      span.textContent += currentWord[charIndex];
-      charIndex++;
-      setTimeout(typeWord, 100); // typing speed per character
-    } else {
-      // Word completed: show and move to next word
-      introEl.querySelectorAll('span')[wordIndex].classList.add('show');
-      wordIndex++;
-      charIndex = 0;
-      setTimeout(typeWord, 300); // delay before next word
-    }
-  }
-
-  typeWord();
-</script>
 
 <!-- ===================== BADGES ===================== -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">
+  <a href="https://www.linkedin.com/in/rktiwary1208/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin">
   </a>
   <a href="mailto:rktiwary1208@gmail.com">
@@ -98,11 +22,9 @@
 
 ## 👨‍💻 About Me
 
-I am an **aspiring Data Scientist** with a strong foundation in analytics and business intelligence, currently transitioning toward **Machine Learning, Artificial Intelligence, and backend deployment**.
+I am an **aspiring Data Scientist** with a strong foundation in analytics, business intelligence, and data visualization. I am currently transitioning toward **Machine Learning, Artificial Intelligence, and backend deployment**.
 
-I enjoy building end-to-end systems — from data preprocessing and analysis to ML models and API deployment.
-
----
+I enjoy building **end-to-end systems** — from data preprocessing and analysis to ML model development and API deployment. My goal is to turn raw data into **intelligent, actionable systems**.
 
 ## 🧠 Current Learning Focus
 
@@ -111,7 +33,6 @@ I enjoy building end-to-end systems — from data preprocessing and analysis to 
 - Docker & MLOps fundamentals  
 - Feature engineering & model evaluation  
 
----
 
 ## 🛠 Tech Stack
 
@@ -124,7 +45,6 @@ FastAPI · Docker
 **Data & Analytics**  
 SQL (MySQL) · Power BI · Advanced Excel  
 
----
 
 ## 📌 Featured Projects
 
@@ -142,37 +62,18 @@ SQL (MySQL) · Power BI · Advanced Excel
 - 10K+ rows processed  
 - KPI-driven dashboards  
 
-*(ML + FastAPI projects coming soon 🚀)*
+**(ML + FastAPI projects coming soon 🚀)**
 
----
 
 ## 🎯 Career Goal
+To become a **Data Scientist / ML Engineer** building intelligent, scalable systems that solve **real-world problems**.
 
-To become a **Data Scientist / ML Engineer** building intelligent, scalable systems that solve real-world problems.
-
----
 
 ## 📫 Contact
 
 📧 rktiwary1208@gmail.com  
-💼 [LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN/)
+💼 [LinkedIn](https://www.linkedin.com/in/rktiwary1208/)
 
----
 
 ⭐ Thanks for visiting my GitHub profile!
-```
 
----
-
-### ✨ Features:
-
-1. **Typing + popping combo** — each word types out character by character, then pops with a bounce.
-2. Fully **responsive** — works on mobile.
-3. **Clean, professional layout** — badges, projects, career goals, contact info.
-4. **Directly paste into README.md** — works on GitHub with no errors.
-
----
-
-If you want, I can **also make this gradient + neon color version** for your intro that will **really pop visually** on GitHub — it will make your profile stand out.
-
-Do you want me to do that next?
