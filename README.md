@@ -1,8 +1,7 @@
-- 👋 Hi, I’m @Hrishiyash
-- 👀 I’m interested in java & python.
-- 🌱 I’m currently learning about data science.
-- 💞️ I’m looking to collaborate on the topic of big data.
-- 📫 Can be connected on : gmail - hrishiyashasvi@gmail.com , insta - hrishiyash1208
+- 👋 Hi, I’m Rishikant Tiwary interested in Data Science / Data Analysis.
+- 🌱 I’m currently learning about AgenticAI and Machine Learning.
+- 💞️ Looking to collaborate on the topics related to Data Science.
+- 📫 Can be connected on : gmail - rktiwary1208@gmail.com , linkedin- Rishikant Tiwary
 
 <!---
 Hrishiyash/Hrishiyash is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
