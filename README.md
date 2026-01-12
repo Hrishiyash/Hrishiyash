@@ -2,7 +2,7 @@
 <h3 align="center">Aspiring Data Scientist | AI & ML Enthusiast | Python & SQL</h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/" target="_blank">
+  <a href="https://www.linkedin.com/in/rktiwary1208/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin">
   </a>
   <a href="mailto:rktiwary1208@gmail.com">
