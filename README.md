@@ -26,7 +26,7 @@ I continuously upskill myself by building projects, experimenting with new tools
 
 📧 **rktiwary1208@gmail.com**
 
-## 🌐 Connect with me
+## 🌐 Connect with me on
 
 <p>
 <a href="https://www.linkedin.com/in/rktiwary1208/" target="_blank">
@@ -63,11 +63,12 @@ To become a **Data Scientist** who builds scalable, data-driven, and intelligent
 
 ## 📄 Resume
 
-<p align="left">
-  <a href="assets/"Rishikant Tiwary CV26.pdf"" target="_blank">
-    <img src="C:\Users\user\OneDrive\Desktop\Rishikant Tiwary CV26.pdf"/>
+<p align="center">
+  <a href="Rishikant%20Tiwary%20CV26.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/Download%20Resume-PDF-blue?style=for-the-badge&logo=adobeacrobatreader">
   </a>
 </p>
+
 
 
 ⭐ Thank you for visiting my GitHub profile!
