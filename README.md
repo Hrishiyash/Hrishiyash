@@ -1,25 +1,56 @@
-Below is the **clean portfolio-style GitHub profile README** with:
 
-✅ Animated typing intro
-✅ Professional layout
-❌ No banner image
-❌ No profile image
+<h1 align="center">Hi 👋, I'm RISHIKANT TIWARY </h1>
 
-Copy–paste this directly into your `README.md`.
-
----
-
-
-<h1 align="center">Hi 👋, I'm Rishikant Tiwary</h1>
-
-<!-- ===================== TYPING ANIMATION ===================== -->
+<!-- ===================== WORD-BY-WORD ANIMATION ===================== -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&pause=1000&color=4AA3FF&center=true&vCenter=true&width=750&lines=Aspiring+Data+Scientist;Machine+Learning+%26+AI+Enthusiast;FastAPI+%7C+Docker+%7C+Python+Developer;Turning+Data+into+Intelligent+Systems" />
+  <span id="animatedIntro">Aspiring Data Analyst/Scientist • Machine Learning & AI Enthusiast • FastAPI | Docker | Python • Turning Data into Intelligent Systems</span>
 </p>
+
+<style>
+  #animatedIntro {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #4AA3FF;
+    line-height: 2;
+  }
+  #animatedIntro span {
+    opacity: 0;
+    display: inline-block;
+    transform: translateY(20px);
+    transition: all 0.4s ease;
+    margin-right: 5px;
+  }
+  #animatedIntro span.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+
+<script>
+  const introEl = document.getElementById('animatedIntro');
+  const words = introEl.textContent.split(' ');
+  introEl.textContent = '';
+  
+  words.forEach(word => {
+    const span = document.createElement('span');
+    span.textContent = word;
+    introEl.appendChild(span);
+  });
+
+  const spans = introEl.querySelectorAll('span');
+  let delay = 0;
+  spans.forEach(span => {
+    setTimeout(() => {
+      span.classList.add('show');
+    }, delay);
+    delay += 250; // 250ms between words, adjust as needed
+  });
+</script>
 
 <!-- ===================== BADGES ===================== -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">
+  <a href="https://www.linkedin.com/in/rktiwary1208/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin">
   </a>
   <a href="mailto:rktiwary1208@gmail.com">
@@ -33,7 +64,7 @@ Copy–paste this directly into your `README.md`.
 
 ## 👨‍💻 About Me
 
-I am an **aspiring Data Scientist** with a strong foundation in analytics and business intelligence, currently transitioning toward **Machine Learning, Artificial Intelligence, and backend deployment**.
+I am an **Aspiring Data Scientist** with a strong foundation in analytics and business intelligence, currently transitioning toward **Machine Learning, Artificial Intelligence, and backend deployment**.
 
 I enjoy building end-to-end systems — from data preprocessing and analysis to ML models and API deployment.
 
@@ -97,15 +128,19 @@ To become a **Data Scientist / ML Engineer** building intelligent, scalable syst
 ⭐ Thanks for visiting my GitHub profile!
 ```
 
+### ✅ Key Features Added:
+
+1. **Word-by-word popping animation** for your intro sentence.
+2. Easy to **adjust speed** via the `delay += 250` line.
+3. Stays fully **Markdown-compatible** for GitHub README.
+4. Maintains badges, projects, and layout.
+
 ---
 
-If you’d like, I can also add:
+If you want, I can make it **even fancier**:
 
-✅ GitHub stats cards
-✅ Top languages chart
-✅ Contribution snake animation
-✅ Minimal version
-✅ Dark-theme optimized colors
-✅ ML roadmap section
+* Add **bounce + scale effect** per word (really "pop" effect)
+* Include **color gradient per word**
+* Make it fully **mobile responsive** in GitHub README
 
-Just tell me what you want next 👍
+Do you want me to do that next?
