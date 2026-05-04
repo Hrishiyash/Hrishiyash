@@ -64,7 +64,7 @@ To become a **Data Scientist** who builds scalable, data-driven, and intelligent
 ## 📄 Resume
 
 <p align="center">
-  <a href="Rishikant%20Tiwary%20CV26.pdf" target="_blank">
+  <a href=""C:\Users\user\OneDrive\Desktop\RKT CV DS 105.pdf"" target="_blank">
     <img src="https://img.shields.io/badge/Download%20Resume-PDF-blue?style=for-the-badge&logo=adobeacrobatreader">
   </a>
 </p>
