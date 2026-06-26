@@ -64,7 +64,7 @@ To become a **Data Scientist** who builds scalable, data-driven, and intelligent
 ## 📄 Resume
 
 <p align="center">
-  <a href="RKT CV DA 2604.pdf" target="_blank">
+  <a href="https://github.com/RKT%20CV%20236515.pdf" target="_blank">
     <img src="https://img.shields.io/badge/Download%20Resume-PDF-blue?style=for-the-badge&logo=adobeacrobatreader">
   </a>
 </p>
