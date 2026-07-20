@@ -59,7 +59,7 @@ I continuously upskill myself by building projects, experimenting with new tools
 
 ## 🎯 Career Goal
 
-To become a **Data Scientist** who builds scalable, data-driven, and intelligent systems that create measurable real-world impact.
+To become a **Data Scientist/Analyst** who builds scalable, data-driven, and intelligent systems that create measurable real-world impact.
 
 ## 📄 Resume
 
